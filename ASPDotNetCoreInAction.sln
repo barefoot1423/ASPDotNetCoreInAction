@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDotNetCoreInAction", "ASPDotNetCoreInAction\ASPDotNetCoreInAction.csproj", "{D20D92F1-F269-4A71-84A9-96157AC056E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter3", "Chapter3", "{A9B3154C-F5D0-4054-9F9B-E444926BD966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{C4DE456C-B3D8-410F-950E-B3AC88CFB6FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{D20D92F1-F269-4A71-84A9-96157AC056E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D20D92F1-F269-4A71-84A9-96157AC056E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D20D92F1-F269-4A71-84A9-96157AC056E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DE456C-B3D8-410F-950E-B3AC88CFB6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DE456C-B3D8-410F-950E-B3AC88CFB6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DE456C-B3D8-410F-950E-B3AC88CFB6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DE456C-B3D8-410F-950E-B3AC88CFB6FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4DE456C-B3D8-410F-950E-B3AC88CFB6FF} = {A9B3154C-F5D0-4054-9F9B-E444926BD966}
 	EndGlobalSection
 EndGlobal
